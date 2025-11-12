@@ -1,0 +1,174 @@
+/* Reset và thiết lập cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Các section */
+section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+/* Phần giới thiệu */
+.gioi-thieu {
+    text-align: center;
+}
+
+.gioi-thieu img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #4CAF50;
+}
+
+.gioi-thieu p {
+    margin: 15px 0;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+/* Phần sở thích */
+.so-thich ul {
+    list-style: none;
+    padding: 0;
+}
+
+.so-thich li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #4CAF50;
+    font-size: 1.1em;
+}
+
+/* Phần liên hệ */
+.lien-he p {
+    margin: 15px 0;
+    font-size: 1.1em;
+}
+
+.lien-he strong {
+    color: #4CAF50;
+}
+
+/* Phần game */
+.game-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.game-section h2 {
+    color: white;
+    border-bottom-color: white;
+}
+
+.game-intro {
+    text-align: center;
+}
+
+.game-intro h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.game-intro p {
+    font-size: 1.1em;
+    margin: 15px 0;
+    line-height: 1.8;
+}
+
+.game-intro ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.game-intro li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1.05em;
+}
+
+.game-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.game-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive - cho điện thoại */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+}
